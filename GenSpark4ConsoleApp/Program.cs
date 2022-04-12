@@ -22,7 +22,8 @@ namespace GenSpark4ConsoleApp
         static void Main(string[] args)
         {
             CRUD c = new CRUD();
-            c.AddPatient("Nirmal", "Fever");
+            //c.AddPatient("Nirmal", "Fever");
+            c.UpdatePatient(2, "Santhosh", "backache");
         }
     }
 
@@ -49,6 +50,18 @@ public class CRUD
             con.Close();
 
     }
+
+        public void UpdatePatient(int id,string name, string ailment)
+        {
+            SqlCommand cmd = new SqlCommand("spUpdatePatient", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Parameters.AddWithValue("@name", name);
+            cmd.Parameters.AddWithValue("@ailment", ailment);
+            con.Open();
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
 
 }
 public interface IA
