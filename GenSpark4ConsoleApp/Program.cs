@@ -23,7 +23,10 @@ namespace GenSpark4ConsoleApp
         {
             CRUD c = new CRUD();
             //c.AddPatient("Nirmal", "Fever");
-            c.UpdatePatient(2, "Santhosh", "backache");
+            //c.UpdatePatient(2, "Santhosh", "backache");
+            // c.FetchPatients();
+            c.DeletePatient(4);
+            Console.ReadLine();
         }
     }
 
@@ -61,6 +64,38 @@ public class CRUD
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
+        }
+
+        public void FetchPatients()
+        {
+            SqlCommand cmd = new SqlCommand("spPTList", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            foreach(DataRow drow in dt.Rows)
+            {
+                Console.WriteLine($"{drow["id"].ToString()} | {drow["name"].ToString()} | {drow["ailment"]}");
+            }
+
+
+        }
+
+        public void DeletePatient(int id)
+        {
+            SqlCommand cmd = new SqlCommand("spDelPatient", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@id", id);
+            try
+            {
+                con.Open();
+                cmd.ExecuteReader();
+                Console.WriteLine("Successful deletion or record");
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine($"{ex.Message}");
+            }
         }
 
 }
