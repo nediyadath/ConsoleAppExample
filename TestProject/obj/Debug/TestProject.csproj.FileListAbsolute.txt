@@ -1,0 +1,11 @@
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\bin\Debug\TestProject.exe.config
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\bin\Debug\TestProject.exe
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\bin\Debug\TestProject.pdb
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\bin\Debug\GenSpark4ConsoleApp.exe
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\bin\Debug\GenSpark4ConsoleApp.pdb
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\bin\Debug\GenSpark4ConsoleApp.exe.config
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\obj\Debug\TestProject.csproj.AssemblyReference.cache
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\obj\Debug\TestProject.csproj.CopyComplete
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\obj\Debug\TestProject.exe
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\TestProject\obj\Debug\TestProject.pdb

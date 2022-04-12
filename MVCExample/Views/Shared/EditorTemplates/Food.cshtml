@@ -1,0 +1,26 @@
+﻿@model MVCExample.Models.Food
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Food</title>
+</head>
+<body>
+    <div class="row">
+        @Html.HiddenFor(e => e.id)
+        @Html.HiddenFor(e => e.name)
+        <div class="col-md-2">
+            @Html.DisplayFor(e => e.name)
+
+        </div>
+        <div class="col-md-2">
+            @Html.CheckBoxFor(e => e.check)
+        </div>
+    </div> <br />
+</body>
+</html>

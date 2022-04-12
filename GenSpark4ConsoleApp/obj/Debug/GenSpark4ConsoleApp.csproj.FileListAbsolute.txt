@@ -1,0 +1,7 @@
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\GenSpark4ConsoleApp\bin\Debug\GenSpark4ConsoleApp.exe.config
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\GenSpark4ConsoleApp\bin\Debug\GenSpark4ConsoleApp.exe
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\GenSpark4ConsoleApp\bin\Debug\GenSpark4ConsoleApp.pdb
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\GenSpark4ConsoleApp\obj\Debug\GenSpark4ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\GenSpark4ConsoleApp\obj\Debug\GenSpark4ConsoleApp.exe
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\GenSpark4ConsoleApp\obj\Debug\GenSpark4ConsoleApp.pdb
+C:\Users\OHMLAP-0143\source\repos\GenSpark4ConsoleApp\GenSpark4ConsoleApp\obj\Debug\GenSpark4ConsoleApp.csproj.AssemblyReference.cache

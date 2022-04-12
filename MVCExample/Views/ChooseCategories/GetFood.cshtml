@@ -1,0 +1,13 @@
+﻿@model IEnumerable<MVCExample.Models.Food>
+
+@{
+    ViewBag.Title = "GetFood";
+}
+
+<h2>Get Food</h2>
+
+
+@using (Html.BeginForm()) {
+@Html.EditorForModel()
+    <input type="submit" class="btn btn-primary" />
+}
